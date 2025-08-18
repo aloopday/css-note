@@ -1,2 +1,0 @@
-## Css Note
-Please review this website [CSS Learning](https://www.runoob.com/css/css-intro.html)
