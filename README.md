@@ -9,3 +9,7 @@ A css **example** [CSS example](https://www.runoob.com/try/demo_source/demo_defa
 
 ## css selector
 This is CSS selector ![CSS selctor](https://www.runoob.com/wp-content/uploads/2013/07/632877C9-2462-41D6-BD0E-F7317E4C42AC.jpg)
+
+## How to create the CSS SElector 
+
+Create CSS selector [ how creata css](https://www.runoob.com/css/css-howto.html)
