@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> External after internal style will show external css</title>
+        <style type="text/css">
+              h2{
+            color:green;
+          }
+        </style>
+        
+
+        <link rel="stylesheet" type="text/css" href="/mystyle.css">
+    </head> 
+    <body>
+        <h2>External after internal style will show external css</h2>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        <p>This is a third paragraph.</p>
+    </body>
+</html>
