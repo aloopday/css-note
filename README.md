@@ -24,3 +24,7 @@ background-repeat
 background-attachment
 background-position
 以上属性无需全部使用，你可以按照页面的实际需要使用.
+
+## CSS Text
+
+[CSS TEXT](https://www.runoob.com/css/css-text.html)
