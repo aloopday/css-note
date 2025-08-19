@@ -15,3 +15,12 @@ This is CSS selector ![CSS selctor](https://www.runoob.com/wp-content/uploads/20
 Create CSS selector [ how creata css](https://www.runoob.com/css/css-howto.html)
 ## CSS Background 
 [css backgroud](https://www.runoob.com/css/css-background.html)
+
+当使用简写属性时，属性值的顺序为：:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+以上属性无需全部使用，你可以按照页面的实际需要使用.
