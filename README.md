@@ -28,3 +28,17 @@ background-position
 ## CSS Text
 
 [CSS TEXT](https://www.runoob.com/css/css-text.html)
+
+## CSS Model
+
+
+How to understand the box model.
+[Css Model style](https://www.runoob.com/css/css-boxmodel.html)
+![CSS Model](https://www.runoob.com/images/box-model.gif)
+
+Margin(外边距) - 清除边框外的区域，外边距是透明的。
+Border(边框) - 围绕在内边距和内容外的边框。
+Padding(内边距) - 清除内容周围的区域，内边距是透明的。
+Content(内容) - 盒子的内容，显示文本和图像。
+为了正确设置元素在所有浏览器中的宽度和高度，你需要知道的盒模型是如何工作的。
+
