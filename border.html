@@ -5,15 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>border</title>
         <style>
-            p{
+            p.ex{
                 border-top-style:dotted;
                 border-right-style:solid;
                 border-bottom-style:dotted;
                 border-left-style:solid;
             }
+            p.ex1{
+                border-style:dotted solid;
+            }
+            p.dog{
+                border:1px solid red;
+            }
+            p.washing{
+                border-style:solid;
+                border-top:thick double #ff0000;
+            }
         </style>
     </head>
     <body>
-        <p>Different border properties</p>
+        <p class="ex">Different border properties</p>
+        <p class="ex1">border is ok </p>
+        <p class="dog">dog is a good friend</p>
+        <p class="washing"> Dog washing is very nice to every family.</p>
     </body>
 </html>
