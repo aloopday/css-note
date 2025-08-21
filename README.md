@@ -27,6 +27,8 @@ background-position
 
 ## CSS Text
 
+
+
 [CSS TEXT](https://www.runoob.com/css/css-text.html)
 
 ## CSS Model
@@ -50,3 +52,25 @@ Content(内容) - 盒子的内容，显示文本和图像。
 元素的总高度最终计算公式是这样的：
 
 总元素的高度=高度+顶部填充+底部填充+上边框+下边框+上边距+下边距
+
+
+# border-style
+
+You can check the border style.
+[border-style](https://www.runoob.com/css/css-border.html)
+
+border-style 属性用于指定要显示的边框类型。
+
+允许的值如下：
+
+dotted：定义点状边框。
+dashed：定义虚线边框。
+solid：定义实线边框。
+double：定义双线边框。
+groove：定义三维沟槽边框。效果取决于 border-color 的值。
+ridge：定义三维脊状边框。效果取决于 border-color 的值。
+inset：定义三维嵌入边框。效果取决于 border-color 的值。
+outset：定义三维突出边框。效果取决于 border-color 的值。
+none：定义无边框。
+hidden：定义隐藏边框。
+
