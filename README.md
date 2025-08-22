@@ -122,3 +122,18 @@ This is the content of paddding.
 Group Selector
 
 [group-selector](https://www.runoob.com/css/css-grouping-nesting.html)
+
+嵌套选择器
+它可能适用于选择器内部的选择器的样式。
+
+在下面的例子设置了四个样式：
+
+p{ }: 为所有 p 元素指定一个样式。
+.marked{ }: 为所有 class="marked" 的元素指定一个样式。
+.marked p{ }: 为所有 class="marked" 元素内的 p 元素指定一个样式。
+p.marked{ }: 为所有 class="marked" 的 p 元素指定一个样式。
+
+## CSS Dimension
+
+How to set CSS Dimension 
+[css-dimension](https://www.runoob.com/css/css-dimension.html).
