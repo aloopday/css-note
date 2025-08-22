@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <title>Embee css selector</title>
+    <style>
+        p{
+            color:blue;
+            text-align:center;
+        }
+        .marked {
+            background-color:red;
+        }
+
+        .marked p{
+            color:white;
+        }
+
+        p.marked{
+            text-decoration:underline;
+        }
+
+
+
+
+
+    </style>
+    
+    </head>
+    <body>
+        <h2>Group Selectors </h2>
+        <p>This is the dog hotel ,(center align) </p>
+        <div class="marked">
+            <p >
+                This paragraph is not blue.
+            </p>
+        </div>
+ 
+        <P>
+         The P is set a style in the class=marked . however the P tag is not blue because it is not a child of the div.marked.
+        </P>
+
+        <p class="marked">
+            underlined text is this paragraph.
+        </p>
+
+        
+</html>
