@@ -34,6 +34,8 @@ background-position
 ## CSS Model
 
 
+
+
 How to understand the box model.
 [Css Model style](https://www.runoob.com/css/css-boxmodel.html)
 ![CSS Model](https://www.runoob.com/images/box-model.gif)
@@ -113,3 +115,10 @@ Padding style. ![Padding Model](https://www.runoob.com/wp-content/uploads/2013/0
 
 This is the content of paddding.
 [understand padding](https://www.runoob.com/css/css-padding.html)
+
+
+## Group Selector
+
+Group Selector
+
+[group-selector](https://www.runoob.com/css/css-grouping-nesting.html)
