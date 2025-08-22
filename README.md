@@ -74,3 +74,7 @@ outset：定义三维突出边框。效果取决于 border-color 的值。
 none：定义无边框。
 hidden：定义隐藏边框。
 
+## CSS Outline
+
+Css Outline will give your more idea to set the style.
+[CSS](https://www.runoob.com/css/css-outline.html)
