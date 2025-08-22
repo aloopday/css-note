@@ -106,3 +106,10 @@ margin:25px 50px;
 margin:25px;
 所有的4个边距都是25px
 
+## CSS padding
+
+This is a padding style.
+Padding style. ![Padding Model](https://www.runoob.com/wp-content/uploads/2013/08/VlwVi.png)
+
+This is the content of paddding.
+[understand padding](https://www.runoob.com/css/css-padding.html)
