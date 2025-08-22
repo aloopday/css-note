@@ -79,3 +79,5 @@ hidden：定义隐藏边框。
 Css Outline will give your more idea to set the style.
 [CSS](https://www.runoob.com/css/css-outline.html)
 ![cssoutline](https://www.runoob.com/images/box_outline.gif)
+
+**inherit** is important in *html* ,*css*,*JavaScript*
