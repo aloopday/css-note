@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relative Positioning</title>
+        <style>
+            h2.pos_left{
+                position:relative;
+                left:-20px;
+            }
+            h2.pos_right{
+                position:relative;
+                right:20px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h2 class="pos_left">This is a normal title.</h2>
+        <h2 class="pos_right">This title will go to left about 20px.</h2>
+        <h2>This title will go to right about 20px.</h2>
+        <p>The relative position will be relative to its normal position.</p>
+        <p>style "left -20px" from the original position to left 20px.</p>
+        <p>Style "right -20px" from the original position to right 20px.</p>
+    </body>
+</html>
