@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collapse </title>
+        <style>
+            table,th,td{
+                border:1px solid black;
+                border-collapse:collapse;
+            }
+            tr.collapse{
+                visibility:collapse;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Dog center</h2>
+        <table>
+            <tr>
+                <th>Client name</th>
+                <th>Pet name</th>
+            </tr>
+            <tr>
+                <td>Charles</td>
+                <td>Rex</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Max</td>
+            </tr>
+            <tr class="collapse">
+                <td>Jane</td>
+                <td>Fido</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
