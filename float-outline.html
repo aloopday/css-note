@@ -1,0 +1,136 @@
+<!DOCTYPE  html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Float Outline style</title>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            body{
+                margin: 0;
+            }
+            .header{
+                background-color: #2196f3;
+                color:white;
+                text-align: center;
+                padding:15px;
+
+            }
+            .footer{
+                background-color:#444;
+                color:white;
+                padding:15px;
+            }
+            .topmenu {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #777;
+
+            }
+
+            .topmenu li{
+                float: left;
+            }
+            .topmenu li{
+                float:left;
+            }
+            .topmenu li a{
+                display:inline-block;
+                color:white;
+                text-align:center;
+                padding:16px;
+                text-decoration:none;
+            }
+            .topmenu li a:hover {
+                background-color:#222;
+            }
+            .topmenu li a.active{
+                color: white;
+                background-color:#4CAF50;
+            }
+            .column{
+
+                float:left;
+                padding:15px;
+            }
+            .clearfix::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+           .sidemenu{
+               width: 25%;
+           
+           }
+           .content{
+            width:75%;
+           }
+           .sidemenu ul{
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+           }
+        .sidemenu li a {
+            margin-bottom: 4px;
+            display: block;
+            padding: 8px;
+            background-color: #eee;
+            text-decoration: none;
+            color: #666;
+        }
+        .sidemenu li a:hover{
+            background-color: #555;
+            color: white;
+        }
+        .sidemenu li a.active{
+            background-color: #008cba;
+            color:white;
+        }
+        </style>
+    </head>
+    <body>
+
+        <ul class="topmenu">
+            <li><a href="https://www.ninahotelgroup.com/" class="active">Home</a></li>
+            <li><a href="https://www.ninahotelgroup.com/about-us/">ABOUT US</a></li>
+
+            <li><a href="https://www.ninahotelgroup.com/en/hotels-and-residences/">SERVICES</a></li>
+            <li><a href="https://www.ninahotelgroup.com/en">Book Now</a></li>
+        </ul>
+
+        <div class="clearfix">
+            <div class="column sidemenu">
+                <ul>
+                    <li><a href="https://www.ninahotelgroup.com/en/nina-hotel-tsuen-wan-west">Our Locations</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/en/about-us/our-brands/" class="active"> OUr brand</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/en/dining/">Dine</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/offers/"> offers</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/en/meetings-and-events/"> Meet</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/social/">Social</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/weddings/">Weddings</a></li>
+                    <li><a href="https://www.ninahotelgroup.com/esg/">ESG</a></li>
+
+                </ul>
+            </div>
+
+            <div class="column content">
+                <div class="header"> 
+                    <h1>Welcome to Charles Hotel</h1>   
+                </div>
+                <h1>Panda Hotel</h1>
+                <p>Rooms And SuitesOur numerous room types are ingeniously designed to meet the tastes and needs of different travellers from all over the world. In the daytime, you will be free to enjoy all of the facilities available, from the fitness center to the outdoor swimming pool, free Wi-Fi, parking lot and the hotel shuttle bus; as the night falls, return to the comfortable room of your choice. A carefree environment will allow you to release fatigue and stress, and fully charge before the next day begins.</p>
+                 <p>To learn more about our hotel rooms and residences in Hong Kong, give us a call and we’ll be more than happy to answer your queries.</p>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>Copyright © 2028 Charles Hotel Group. All rights reserved.</p>
+        </div>
+    </body>
+</html>
