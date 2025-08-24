@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Positioning</title>
+        <style>
+            h2.pos_top{
+                position:relative;
+                top:-50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>This is a normal title.</h2>
+        <h2 class="pos_top">This title will go up about 50px.</h2>
+        <p><b>Notice:</b>Even the relative element is moving, the space it originally occupied is still preserved.
+        The prepared room is still in normal flow.</p>
+    </body>
+</html>
