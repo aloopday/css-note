@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Border Float</title>
+        <style>
+            img {
+                float:right;
+                border:1px dotted  #ff0000;
+                margin:0px 0px 15px 20px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <p>This is a paragraph.</p>
+        <p>
+
+            <strong>This is bold text.</strong>
+            <img src="/img/logocss.gif" alt="css logo" width="100" height="85">
+
+            At The Barkyard, we believe that pets make our lives whole, which is why we only offer premium products and services to your precious furbabies. Our in-store assistants truly care about your pets and are always here to provide the best care that your pet deserves.
+
+Being the only pet shop in the tech savvy Cyberport, we endeavour to be the first technology-focused pet shop in Hong Kong, selling and promoting pet techs that will transform your pet’s and your life!
+        </p>
+
+    </body>
+
+</html>
+
+        
