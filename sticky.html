@@ -1,0 +1,41 @@
+<!DOCTYPE  html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Sticky element example</title>
+        <style>
+            div.sticky{
+                position: -webkit-sticky; /* for safari */
+                position: sticky;
+                top: 0;
+                padding:5px;
+                background-color: #cae8ca;
+                border:2px solid #4CAF50;
+            }
+        </style>
+
+    </head>
+    <body>
+        <p>Try to scroll down the page to see the sticky element in action.</p>
+        <p><b>Notice:</b>IE/Edge 15 and earlier versions do not support sticky positioning.</p>
+
+        <div class="sticky">I am a sticky element.</div>
+        <div style="padding-bottom:2000px">
+            <p>Scroll me.</p>
+            <p>Scroll the content.</p>
+            <p>Scroll me.</p>
+            <p>Scroll the content.</p>
+            <p>Scroll me.</p>
+            <p>Scroll the content.</p>
+            <p>Scroll me.</p>
+            <p>Scroll the content.</p>
+            <p>Scroll me.</p>
+            <p>Scroll the content.</p>
+            <p>Scroll me.</p>
+            <p>Scroll the content.</p>
+
+        </div>
+    </body>
+    
+</html>
