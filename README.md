@@ -171,3 +171,6 @@ CSS float reference:[CSS-float](https://www.runoob.com/css/css-float.html)
 相邻兄弟选择器（以加号 + 分隔）
 普通兄弟选择器（以波浪号 ～ 分隔）
 
+## CSS 
+
+[css not selector](https://www.runoob.com/cssref/sel-not.html)
