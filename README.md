@@ -185,3 +185,8 @@ CSS float reference:[CSS-float](https://www.runoob.com/css/css-float.html)
 
 ## css navigater menu
 [css navigate](https://www.runoob.com/css/css-navbar.html)
+
+how to create a vertical and 
+list-style-type:none - 移除列表前小标志。一个导航栏并不需要列表标记
+移除浏览器的默认设置将边距和填充设置为0
+
