@@ -178,3 +178,7 @@ CSS float reference:[CSS-float](https://www.runoob.com/css/css-float.html)
 ## CSS 伪类：
 
 [Css 伪类](https://www.runoob.com/css/css-pseudo-classes.html)
+
+## Pseudo element :
+
+[Pseudo Element](https://www.runoob.com/css/css-pseudo-elements.html)
