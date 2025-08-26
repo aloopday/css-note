@@ -174,3 +174,7 @@ CSS float reference:[CSS-float](https://www.runoob.com/css/css-float.html)
 ## CSS 
 
 [css not selector](https://www.runoob.com/cssref/sel-not.html)
+
+## CSS 伪类：
+
+[Css 伪类](https://www.runoob.com/css/css-pseudo-classes.html)
