@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resposive framework</title>
+        <style>
+            ul.topnav{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+                background-color:#333;
+
+            }
+            ul.topnav li {float:left;}
+            ul.topnav li a {
+                display:block;
+                color:white;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration: none;
+            }
+
+            ul.topnav li a:hover:not(.active) {
+                background-color:#111;
+            }
+            ul.topnav li a.active {background-color:#4CAF50;}
+            ul.topnav li.right{float:right;}
+
+            @media screen and (max-width:600px){
+                ul.topnav li.right,
+                ul.topnav li{float:none;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a class="active" href="https://www.doginn.com.hk/index.html">Dogin</a></li>
+            <li><a href="https://www.doginn.com.hk/index.html#Doginn_hotel">Dogin-hotel</a></li>
+            <li><a href="https://www.doginn.com.hk/index.html#Doginn_service">Dog gromming</a></li>
+            <li class="right"><a href="https://www.doginn.com.hk/index.html#Doginn_product">Dog Products.</a></li>
+        </ul>
+        <div style="padding:0 16px;">
+            <h2>Resposive nav example</h2>
+            <p>When the width of screen less than 600px. Reseting nav menu</p>
+            <h4>Reset browser window, then check the large and less.</h4>
+
+        </div>
+    </body>
+</html>
