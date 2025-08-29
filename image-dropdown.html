@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Icon Dropdown</title>
+        <style>
+            .dropdown{
+                position:relative;
+                display:inline-block;
+            }
+            .dropdown-content{
+                display:none;
+                position:absolute;
+                background-color:#f9f9f9;
+                min-width:160px;
+                box-shadow:0px 8px 16px 0px rgba(0,0,0,0.3);
+            }
+
+            .dropdown:hover .dropdown-content{
+                display:block;
+            }
+            .desc{
+                padding:15px;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>The Dog Walking</h2>
+        <p>When you mouse is over the images. You will see different contents.</p>
+
+        <div class="dropdown">
+            <img src="/img/dogwalking.jpg" alt="dogwalk" width="100" height="50">
+            <div class="dropdown-content">
+                <img src="/img/dogwalking.jpg" alt="dogwalk" width="400" height="200">
+                <div class="desc"> Dog walking is important for the dogs</div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
