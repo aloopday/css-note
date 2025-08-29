@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>DropDown Menu</title>
+        <style>
+            body{margin:5px;}
+           
+            ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+  }
+  
+  li{
+    float:left;
+  }
+  
+  li a, .dropbtn
+  {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover, .dropdown:hover, .dropbtn
+  {
+    background-color:#111;
+  }
+  
+  .dropdown
+  {
+    display:inline-block;
+  }
+  
+  .dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a
+  {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content
+  {
+    display:block;
+  }
+  
+        </style>
+    </head>
+    <body>
+       <ul>
+        <li><a class="active" href="https://www.animalhospital.com.hk/">Home</a></li>
+        <li><a href="https://petspace.group/en_hk/clinic-locations/">Our clinics</a></li>
+        <li><a href="https://www.petspaceclub.com/">eshop</a></li>
+        <div class="dropdown">
+            <a class="dropbtn" href="https://petspace.group/en_hk/about-us/">About Us</a>
+            <div class="dropdown-content">
+                <a href="https://petspace.group/en_hk/our-services/senior-care/">Senior-care</a>
+                <a href="https://petspace.group/en_hk/our-services/dental-care/">Dental-care</a>
+                <a href="https://petspace.group/en_hk/our-services/cats-and-dogs-vaccinations/">Vaccinations</a>
+                <a href="https://petspace.group/en_hk/our-services/24-hour-pet-hospital/">24 service</a>
+            </div>
+        </div>
+    </ul>
+<H2> Navigate menue</H2>
+<p>When you mover your mouse over the menue ,you will see more.</p>
+
+    </body>
+</html>
