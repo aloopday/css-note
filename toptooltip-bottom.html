@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>display tooltip on the bottom.</title>
+        <style>
+            .tooltip{
+                position:relative;
+                display:inline-block;
+                border-bottom:1px dotted black;
+            }
+            .tooltip .tooltiptext{
+                visibility:hidden;
+                width:120px;
+                background-color:black;
+                color:#fff;
+                text-align:center;
+                border-radius:6px;
+                padding:5px 0;
+
+                /* position */
+                position:absolute;
+                z-index: 1;
+                top: 100%;
+                left:50%;
+                margin-left:-60px;
+
+            }
+
+            .tooltip:hover .tooltiptext{
+                visibility:visible;
+            }
+        </style>
+     </head>
+     <body>
+        <h2>bottom display tool</h2>
+        <p>When mouse move to below element.</p>
+
+        <div class="tooltip">When mouse is here.
+            <span class="tooltiptext">tool text</span>
+        </div>
+     </body>
+</html>
