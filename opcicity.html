@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>
+            opacity
+        </title>
+        <style>
+            .tooltip{
+                position:relative;
+                display:inline-block;
+                border-bottom:1px dotted black;
+            }
+            .tooltip .tooltiptext{
+                visibility: hidden;
+                width: 120px;
+                background-color:black;
+                color:#fff;
+                text-align:center;
+                border-radius:6px;
+                padding:5px 0;
+                position: absolute;
+                z-index:1;
+                bottom:100%;
+                left:50%;
+                margin-left:-60px;
+
+                /* opacity from 0% -50% in second 1*/
+                opacity:0;
+                transition: opacity 3s;
+            }
+
+            .tooltip:hover .tooltiptext{
+                visibility:visible;
+                opacity:1;
+            }
+        </style>
+    </head>
+    <body style="text-align:center">
+        <h2>Opacity effect</h2>
+        <p>When your mouse cursor is here, the tips tool will from 0% to 100% </p>
+
+        <div  class="tooltip">
+            when mouse is come to here.
+            <span class="tooltiptext">This is very important</span>
+
+        </div>
+
+    </body>
+</html>
