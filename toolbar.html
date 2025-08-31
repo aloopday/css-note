@@ -5,20 +5,25 @@
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>Tooltip</title>
         <style>
+            /* Tooltip container */
+
             .tooltip{
                 position:relative;
                 display:inline-block;
-                border-bottom:1px dotted black;
+                border-bottom:1px dotted black; /*display dotted line when over the element*/
 
             }
+            /*Tooltip 文本 */
+
             .tooltip .tooltiptext{
                 visibility:hidden;
                 width:120px;
                 background-color:black;
                 color:#fff;
                 text-align:center;
-                border-radius:6px;
                 padding:5px 0;
+                border-radius:6px;
+               
 
                 /* position */
                 position:absolute;
@@ -26,13 +31,16 @@
 
             }
 
+            /*mouse over the element ,you weill see the tip  box*/
             .tooltip:hover .tooltiptext{
                 visibility:visible;
             }
         </style>
     </head>
     <body style="text-align:center;">
-        <div class="tooltip">When mouse mover to here</div>
-        <span class="tooltiptext">Notice please.</span>
+        <div class="tooltip">When mouse mover to here
+            <span class="tooltiptext">Notice please.</span>
+        </div>
+        
     </body>
 </html>
