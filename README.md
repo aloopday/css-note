@@ -198,3 +198,6 @@ list-style-type:none - 移除列表前小标志。一个导航栏并不需要列
 
 ## CSS Gallery
 [CSS Gallery](https://www.runoob.com/css/css-image-gallery.html)
+
+## CSS opacity
+[CSS Opacity](https://www.runoob.com/css/css-image-transparency.html)
