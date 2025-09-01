@@ -201,3 +201,9 @@ list-style-type:none - 移除列表前小标志。一个导航栏并不需要列
 
 ## CSS opacity
 [CSS Opacity](https://www.runoob.com/css/css-image-transparency.html)
+
+## image combine
+[Image Combine](https://www.runoob.com/css/css-image-sprites.html)
+## CSS media type:
+
+[CSS 媒体类型](https://www.runoob.com/css/css-mediatypes.html)
