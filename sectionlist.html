@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Section list</title>
+        <style>
+            ol{
+                counter-reset:section;
+                list-style-type:none;
+            }
+            li::before{
+                counter-increment:section;
+                content: counters(section, " .") " "
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>dog food</li>
+            <li>From where:
+                <ol>
+                    <li>made in China</li>
+                    <li>made in Franch</li>
+                    <li>made in England
+                        <ol>
+                            <li>London</li>
+                            <li>oxford</li>
+                            <li>cambridge</li>
+                        </ol>
+
+                    </li>
+                    <li>made in Japan</li>
+                </ol>
+            </li>
+            <li>cat food</li>
+            <li>dog wash</li>
+        </ol>
+        <ol>
+            <li>brand name</li>
+
+            <li>brand image</li>
+        </ol>
+    </body>
+</html>
