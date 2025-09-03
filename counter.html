@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> Counter</title>
+        <style>
+            body{
+                counter-reset:section;
+
+            }
+            h2::before{
+                counter-increment: section;
+                content:"Section " counter(section) ": ";
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1> Use css counter.</h1>
+        <h2> Html tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        <h2>JavaScript</h2>
+        <p><b>Notice:</b>Need !DOCTYPE to support these attributes.</p>
+    </body>
+</html>

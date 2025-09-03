@@ -210,3 +210,6 @@ list-style-type:none - 移除列表前小标志。一个导航栏并不需要列
 
 ## CSS display 属性
 [CSS display](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display)
+
+## CSS 计数器 
+[CSS counter](https://www.runoob.com/css/css-counters.html)
