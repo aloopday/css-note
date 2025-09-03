@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Subsection</title>
+        <style>
+            body{
+                counter-reset:section;
+            }
+            h1{
+                counter-reset:subsection;
+                color: aqua;
+            }
+            h1::before{
+                counter-increment:section;
+                content: "Section "  counter(section) ". ";
+            }
+            h2::before{
+                counter-increment:subsection;
+                content:counter(section) "." counter(subsection) " ";
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Dog wash</h1>
+        <h2>Dog wash in the shop.</h2>
+        <h2>Dog wash in the  street.</h2>
+
+        <h1>Dog hotel</h1>
+        <h2>Dog hotel in HongKong.</h2>
+        <h2>Dog hotel in ShenZhen.</h2>
+
+        <h1>Dog groom</h1>
+        <h2>Dog groom at home.</h2>
+        <h2>Dog groom  at store.</h2>
+    </body>
+</html>
