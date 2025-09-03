@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" >
+    <title>Whole webpage</title>
+    <style>
+        *{
+            box-sizing:border-box;
+
+        }
+        body{
+            font-family: Arial;
+            padding:10px;
+            background:#f1f1f1;
+
+        }
+
+        /* header title */
+        .header{
+            padding:30px;
+            text-align:center;
+            background:white;
+
+        }
+        .header h1{
+            font-size:50px;
+        }
+        /*nav bar*/
+        .topnav{
+            overflow:hidden;
+            background-color:#333;
+        }
+        /* nav bar link */
+        .topnav a{
+            float:left;
+            display:block;
+            color:#f2f2f2;
+            text-align:center;
+            padding: 14px 16px;
+            text-decoration:none;
+        }
+
+        /* link color changed */
+        .topnav a:hover{
+            background-color:#ddd;
+            color:black;
+        }
+
+        /* create two columns */
+        /*left column */
+        .leftcolumn{
+            float:left;
+            width:75%;
+        }
+        /*right column */
+        .rightcolumn{
+            float:left;
+            width:25%;
+            background-color: #f1f1f1;
+            padding-left:20px;
+        }
+        /*image part */
+        .fakeimg{
+            background-color:#aaa;
+            width:100%;
+            padding:20px;
+        }
+        /* article card effect */
+        .card{
+            background-color: white;
+            padding:20px;
+            margin-top:20px;
+        }
+        /* column clear */
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /*footer*/
+        .footer{
+            padding:20px;
+            text-align:center;
+            background:#ddd;
+            margin-top:20px;
+        }
+
+        /* responsive layout, if the screen size less then 800px. layout changed to  up-down */
+        @media screen and (max-width:800px){
+            .leftcolumn, .rightcolumn{
+                width:100%;
+                padding:0;
+            }
+        }
+
+        /* responsive layout ,screen size less thn 400px, nave etc changed to up-down */
+        @media screen and (max-width:400px){
+            .topnav a {
+                float:none;
+                width:100%;
+            }
+        }
+        
+    </style>
+
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>港村大叔</h1>
+            <p>港村大叔爱吹水&港村大叔爱说车</p>
+        </div>
+        
+        <div class="topnav">
+            <a href="https://www.youtube.com/@HKUCharles">港村大叔爱吹水</a>
+            <a href="https://www.youtube.com/@HelloCaptainCharles">港村大叔爱说车</a>
+            <a href="https://x.com/love98982016">港村大叔的Twitter</a>
+            <a href="#" style="float:right">关于港村大叔</a>
+
+        </div>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class ="card">
+                    <h2>News comment</h2>
+                    <h5> 2025 Sep 3</h5>
+                    <div class="fakeimg" style="height:200px;">image</div>
+                    <p>Time is flying.</p>
+                    <p>新闻，影评，八卦，布谈国事。
+                        海外侨胞,依法吹水。
+                            马户族族长。
+                        大家好我是港村大叔。
+                        </p>
+                </div>
+
+                 <div class ="card">
+                    <h2>News comment</h2>
+                    <h5> 2025 Sep 3</h5>
+                    <div class="fakeimg" style="height:200px;">image</div>
+                    <p>Time is flying.</p>
+                    <p>新闻，影评，八卦，布谈国事。
+                        海外侨胞,依法吹水。
+                            马户族族长。
+                        大家好我是港村大叔。
+                        </p>
+                </div>
+                
+            </div>
+
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About me</h2>
+                    <div class="fakeimg" style="height:100px;">image</div>
+                    <p>About me information</p>
+                </div>
+                <div class="card">
+                    <h3>Good article</h3>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                </div>
+                <div class="card">
+                    <h3>About me</h3>
+                    <p> Some experience about life.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <h2>港村大叔的生活。</h2>
+        </div>
+    </body>
+
+</html>
