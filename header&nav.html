@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>header+na</title>
+        <Style>
+            *{
+                box-sizing:border-box;
+            }
+            body{
+                margin:0;
+            }
+            /*header style */
+            .header{
+                background-color:#f1f1f1;
+                padding:20px;
+                text-align:center;
+            }
+            /*topnav*/
+            .topnav{
+                overflow:hidden;
+                background-color:#333;
+            }
+            /* link */
+            .topnav a{
+                float:left;
+                display:block;
+                color:lab(84.75% 1.31 85.34);
+                text-align:center;
+                padding:14px 16px;
+                text-decoration:none;
+            }
+
+            /* link-modify color */
+            .topnav a:hover{
+                background-color:#ddd;
+                color:black;
+
+            }
+
+            /* creat three equal column */
+            .column{
+                float:left;
+                width:33.3%;
+            }
+
+            /*after column to cleare float */
+            .row:after{
+                content:"";
+                display: table;
+                clear:both;
+            }
+
+            /* responsive outline */
+            @media screen and (max-width:600px){
+                .column{
+                    width:100%;
+                }
+            }
+        </Style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Header area</h1>
+        </div>
+        <div class="topnav">
+            <a href="https://www.youtube.com/@HelloCaptainCharles">Charels talk show</a>
+            <a href="https://www.youtube.com/@HKUCharles">Charles talk show</a>
+            <a href="https://www.youtube.com/@HelloCaptainCharles">Hello Captain</a>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <h2>First Column.</h2>
+                <p>We believe we are all the same. Any size, breed, and age is welcome to our self-serve dog wash space. All deserve to feel, look and smell great! And the best part? All proceeds donated go towards our community work.</p>
+
+            </div>
+            <div class="column">
+                <h2>Second Column.</h2>
+                <p>
+                    A flat fee for all paws, big or small!
+SIZE OF DOG | DURATION | PRICE
+
+Small (up to 7kg) | 50 mins | HK$100* per dog
+Medium (Up to 15kg) | 1.5 hour | HK$100* per dog
+Large (15kg onwards) | 2 hours | HK$100* per dog
+Self-Dog Wash service hours:
+
+Monday - Friday 10AM - 5PM
+Weekends & Public Holiday 10AM - 6PM
+                </p>
+            </div>
+            <div class="column">
+                <h2>Three Column</h2>
+                <p>Pimary believes that harmony and inner peace lie closest to the Mother Nature, the basic of life. 
+
+We are proud to work with sustainable and ethical producers which are environmental conscious,
+
+respect for other animal and care about the planet. Sustainability start from our everyday life. 
+
+We are distributing ranges of natural skincare to offer an alternative to nurture your skin with the 
+
+holistic approach, and eco-friendly homeware fora lifestyle that are not compromising the nature. 
+
+Even the smallest step we made is a step towards to create a greener planet.</p>
+            </div>
+
+        </div>
+    </body>
+</html>
